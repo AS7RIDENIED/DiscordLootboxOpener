@@ -31,13 +31,9 @@
 
 ![image](https://github.com/AS7RIDENIED/DiscordLootboxOpener/assets/69326004/03a253c3-6550-4486-9c63-857d12733767)
 
-- Копируем первое значение из `Authorization` и вставляем его в прогу
+- Копируем значение из `Authorization` и вставляем его в прогу
 
 ![image](https://github.com/AS7RIDENIED/DiscordLootboxOpener/assets/69326004/17558a99-913c-4cb8-9a95-bc3fa17f2389)
-
-- Копируем второе значение из `X-Super-Properties` и также вставляем
-
-![image](https://github.com/AS7RIDENIED/DiscordLootboxOpener/assets/69326004/9844b6b2-caa6-4ee3-9ebf-df23cf186aaa)
 
 - Радуемся (чему правда не понятно)
 
