@@ -2,12 +2,11 @@ import httpx, time
 
 url = "https://discord.com/api/v9/users/@me/lootboxes/open"
 authorization = input("Введи authorization из хидеров запроса:\n> ")
-super_properities = input("Введи x-super-properities из хидеров запроса:\n> ")
 headers = {
     "authorization": authorization,
-    "x-super-properties": super_properities,
+    "x-super-properties": "eyJjbGllbnRfYnVpbGRfbnVtYmVyIjoyODAzNDZ9"
 }
-cd = 4.45
+cd = 4.5
 while True:
     response = httpx.post(
         url=url,
@@ -15,7 +14,6 @@ while True:
     )
     if response.status_code != 200:
         print("Случилась какая-то ебанина, запрос не прошел")
-        time.sleep(cd)
     elif response.status_code == 200:
         try:
             opened = "xxx"
